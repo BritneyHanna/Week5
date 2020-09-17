@@ -8,7 +8,7 @@ public class SpacedLogger implements Logger {
 			word.append(Log.charAt(i)).append(" ");
 		}
 
-		System.out.println(word);
+		System.out.println(word.toString());
 	}
 
 	public void Error(String Error) {
@@ -17,7 +17,7 @@ public class SpacedLogger implements Logger {
 		for (int i = 0; i < Error.length(); i++) {
 			word2.append(Error.charAt(i)).append(" ");
 		}
-		System.out.println("ERROR: " + word2);
+		System.out.println("ERROR: " + word2.toString());
 
 	}
 
